@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  margin: 10px;
   font: 16px / 1 sans-serif;
 }
 h6 {
@@ -34,6 +33,9 @@ a:link {
   padding: 20px;
   color: black;
 }
+a:hover {
+  color: red;
+}
 .search {
   align-content: space-between;
   height: 35px;
@@ -53,10 +55,26 @@ header h1 {
 header h2 {
   font-weight: lighter;
 }
-.whatsnew h4 {
+.whatsnew {
   color: red;
+  font-size: 20px;
+}
+h4 {
   font-size: 20px;
 }
 .recentproject:link {
   text-decoration: underline;
+}
+.textbox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.collage {
+  display: flex;
+  justify-content: center
+}
+.column1 {
+  margin: auto;
+  flex-wrap: wrap;
 }
