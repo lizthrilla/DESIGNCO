@@ -11,7 +11,6 @@ h6 {
 }
 .navbar {
   background-color: #F5F5F5;
-  padding-bottom: 20px;
   display:flex;
   font-family: Helvetica, sans-serif;
 }
@@ -22,9 +21,7 @@ h6 {
   margin-right: 100px;
   justify-content: center;
 }
-.fixed {
-  position: fixed;
-}
+
 ul {
   list-style-type: none;
   display: flex;
@@ -39,6 +36,7 @@ a:link {
 }
 a:hover {
   color: red;
+  background-color: #D3D3D3;
 }
 .search {
   align-content: space-between;
@@ -49,6 +47,10 @@ a:hover {
 }
 .DESIGNCO {
   font-weight: bold;
+}
+.logo {
+  height: 36px;
+  width: auto;
 }
 header {
   text-align:center;
