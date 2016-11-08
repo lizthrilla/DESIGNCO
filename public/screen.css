@@ -10,4 +10,30 @@ h6 {
   border-bottom-style: solid;
   border-bottom-color: red;
   color: transparent;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -1.5em;
+}
+.navbar {
+  background-color: #F5F5F5;
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  display: flex;;
+  align-content: stretch;
+  padding-top: 35px;
+  margin-left: 60px;
+}
+a:link {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.DESIGNCO {
+  font-weight: bold;
+}
+h1 {
+  
 }
