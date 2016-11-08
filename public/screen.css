@@ -3,21 +3,20 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font: 16px / 1 sans-serif;
 }
 h6 {
-  border-bottom-style: solid;
-  border-bottom-color: red;
   color: transparent;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: -1.5em;
 }
 .navbar {
   background-color: #F5F5F5;
-  font-family: Helvetica, sans-serif;
   padding-bottom: 20px;
+  display:flex;
+  border-top-color: red;
+  border-top-style: solid;
+  border-width: medium;
+  font-family: Helvetica, sans-serif;
 }
 ul {
   list-style-type: none;
@@ -31,9 +30,19 @@ a:link {
   padding: 20px;
   color: black;
 }
+.search {
+  display: flex;
+  justify-content: flex-end;
+}
 .DESIGNCO {
   font-weight: bold;
 }
-h1 {
-  
+header {
+  text-align:center;
+}
+header h1 {
+  font-size: 50px;
+}
+header h2 {
+  font-weight: lighter;
 }
