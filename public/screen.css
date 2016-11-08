@@ -6,3 +6,8 @@ body {
   margin: 0;
   font: 16px / 1 sans-serif;
 }
+h6 {
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  color: transparent;
+}
