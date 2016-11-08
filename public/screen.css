@@ -53,3 +53,10 @@ header h1 {
 header h2 {
   font-weight: lighter;
 }
+.whatsnew h4 {
+  color: red;
+  font-size: 20px;
+}
+.recentproject:link {
+  text-decoration: underline;
+}
