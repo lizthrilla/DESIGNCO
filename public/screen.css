@@ -13,17 +13,20 @@ h6 {
   background-color: #F5F5F5;
   padding-bottom: 20px;
   display:flex;
-  justify-content: space-between;
+  font-family: Helvetica, sans-serif;
+}
+.border {
   border-top-color: red;
   border-top-style: solid;
-  border-width: medium;
-  font-family: Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  justify-content: center;
 }
 ul {
   list-style-type: none;
   display: flex;
-  align-content: stretch;
-  padding-top: 35px;
+  align-content: space-between;
+  padding-top: 30px;
   margin-left: 60px;
 }
 a:link {
@@ -32,8 +35,11 @@ a:link {
   color: black;
 }
 .search {
-  display: flex;
-  justify-content: flex-end;
+  align-content: space-between;
+  height: 35px;
+  width: auto;
+  padding-left: 35em;
+  padding-top: 15px;
 }
 .DESIGNCO {
   font-weight: bold;
